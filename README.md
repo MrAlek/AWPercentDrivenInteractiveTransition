@@ -48,7 +48,7 @@ There's also a convinience initializer called `initWithAnimator:` that sets the 
 
 ## Demo
 
-If you wanna se a demo of this drop-in replacement class in action, check out my blog post on Interactive Custom Container View Transitions (TBA).
+If you wanna se a demo of this drop-in replacement class in action, check out my blog post on [Interactive Custom Container View Controller Transitions](http://www.iosnomad.com/blog/2014/5/12/interactive-custom-container-view-controller-transitions).
 
 ## Licence
 

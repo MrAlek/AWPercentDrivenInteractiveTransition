@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AWPercentDrivenInteractiveTransition'
-  s.version      = '0.1.0'
+  s.version      = '0.2.0'
   s.summary      = 'An drop-in replacement for UIPercentDrivenInteractiveTransition'
   s.description  = <<-DESC
                        `AWPercentDrivenInteractiveTransition` is a drop-in replacement

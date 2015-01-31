@@ -7,10 +7,11 @@ Why do you need it? Because Apples own `UIPercentDrivenInteractiveTransition` ca
 Note that this class can be used with UIKits standard container view controllers such as `UINavigationController`, `UITabBarController` and also for presenting modal view controllers.
 
 ## Status
+0.2.0 - Added support for changing `completionSpeed`
 0.1.0 - Basic functionality implemented, usable for a majority of cases
 
 ### Unimplemented features
-* `completionSpeed` can't be changed from 1.0
+* ~~`completionSpeed` can't be changed from 1.0~~ (fixed in 0.2.0)
 * `completionCurve` can't be changed from `UIViewAnimationCurveLinear`
 * No support for `UIViewControllerTransitionCoordinator` (for animating other views along transition)
 
@@ -27,8 +28,8 @@ Note that this class can be used with UIKits standard container view controllers
 
 Alternatively you can directly add the `AWPercentDrivenInteractiveTransition.h` and `AWPercentDrivenInteractiveTransition.m` source files to your project.
 
-1. Download the [latest code version](https://github.com/MrAlek/AWPercentDrivenInteractiveTransition/archive/master.zip) or add the repository as a git submodule to your git-tracked project. 
-2. Open your project in Xcode, then drag and drop `AWPercentDrivenInteractiveTransition.h` and `AWPercentDrivenInteractiveTransition.m` onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project. 
+1. Download the [latest code version](https://github.com/MrAlek/AWPercentDrivenInteractiveTransition/archive/master.zip) or add the repository as a git submodule to your git-tracked project.
+2. Open your project in Xcode, then drag and drop `AWPercentDrivenInteractiveTransition.h` and `AWPercentDrivenInteractiveTransition.m` onto your project (use the "Product Navigator view"). Make sure to select Copy items when asked if you extracted the code archive outside of your project.
 3. Include AWPercentDrivenInteractiveTransition wherever you need it with `#import "AWPercentDrivenInteractiveTransition.m"`.
 
 ### Static library

@@ -17,7 +17,7 @@ Note that this class can be used with UIKits standard container view controllers
 
 ## Installation
 
-### Cocoapods
+### CocoaPods
 [CocoaPods](http://cocoapods.org) is the recommended way to add AWPercentDrivenInteractiveTransition to your project.
 
 1. Add a pod entry for AWPercentDrivenInteractiveTransition to your Podfile `pod 'AWPercentDrivenInteractiveTransition', '~> 0.1'`

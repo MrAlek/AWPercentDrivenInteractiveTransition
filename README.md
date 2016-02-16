@@ -34,7 +34,7 @@ Alternatively you can directly add the `AWPercentDrivenInteractiveTransition.h` 
 
 ### Static library
 
-If you don't want to compile my code all the time, there's an XCode project in the `lib` folder which generates a static `libAWPercentDrivenInteractiveTransition.a` library file you can include in your project. Just remember to include the original `LICENCE` file in your source code.
+If you don't want to compile my code all the time, there's an Xcode project in the `lib` folder which generates a static `libAWPercentDrivenInteractiveTransition.a` library file you can include in your project. Just remember to include the original `LICENCE` file in your source code.
 
 ## Usage
 
